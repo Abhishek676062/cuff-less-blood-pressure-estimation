@@ -3,6 +3,7 @@
 This project aims to build a predictive model for a cuff-less blood pressure estimation device that uses machine learning to predict blood pressure based on PPG and ECG data. The model will take PPG and ECG data as input and predict the corresponding systolic and diastolic blood pressure readings.
 
 # Dataset
+We can not add dataset because it size is more than 5GB.
 
 The dataset for this project is available on Kaggle as a ZIP file named cuff-less blood pressure estimation.zip. 
 
@@ -12,12 +13,12 @@ The train folder contains training data in the form of PPG and ECG signals, alon
 
 The test folder contains test data in the same format as the training data.
 
-# Install Adbhutio-server
+# Install cuff-less-blood-pressure-estimation
 
 ```bash
-  mkdir Adbhut
-  git clone https://github.com/shankar2005/AdbhutIO-server.git
-  cd AdbhutIO-server
+  mkdir cuff-less-blood-pressure-estimation
+  git clone https://github.com/Abhishek676062/cuff-less-blood-pressure-estimation.git
+  cd cuff-less-blood-pressure-estimation
   py -m venv .venv
   pip install -r requirements.txt
 ```
