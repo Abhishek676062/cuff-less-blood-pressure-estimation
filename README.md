@@ -9,12 +9,19 @@ The dataset for this project is available on Kaggle as a ZIP file named cuff-les
 # Requirements
 
 To build and run the model, you will need the following:
+
 Python 3.x
+
 NumPy
+
 Pandas
+
 Matplotlib
+
 Scikit-learn
+
 Keras
+
 TensorFlow
 
 # Building the Model
