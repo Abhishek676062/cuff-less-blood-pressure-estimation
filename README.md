@@ -3,7 +3,7 @@
 This project aims to build a predictive model for a cuff-less blood pressure estimation device that uses machine learning to predict blood pressure based on PPG and ECG data. The model will take PPG and ECG data as input and predict the corresponding systolic and diastolic blood pressure readings.
 
 # Dataset
-We can not add dataset because it size is more than 5GB.
+**We can not add dataset because it size is more than 5GB.**
 
 The dataset for this project is available on Kaggle as a ZIP file named cuff-less blood pressure estimation.zip. 
 
