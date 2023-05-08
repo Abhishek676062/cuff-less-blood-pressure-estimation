@@ -1,10 +1,13 @@
 #Cuff-less Blood Pressure Estimation using Machine Learning
+
 This project aims to build a predictive model for a cuff-less blood pressure estimation device that uses machine learning to predict blood pressure based on PPG and ECG data. The model will take PPG and ECG data as input and predict the corresponding systolic and diastolic blood pressure readings.
 
 #Dataset
+
 The dataset for this project is available on Kaggle as a ZIP file named cuff-less blood pressure estimation.zip. The dataset contains a train folder and a test folder. The train folder contains training data in the form of PPG and ECG signals, along with their corresponding systolic and diastolic blood pressure readings. The test folder contains test data in the same format as the training data.
 
 #Requirements
+
 To build and run the model, you will need the following:
 Python 3.x
 NumPy
@@ -15,6 +18,7 @@ Keras
 TensorFlow
 
 #Building the Model
+
 Load the dataset from the train folder into memory using Pandas.
 Preprocess the dataset as necessary to prepare it for training and testing the models. 
 This may include normalizing the data, splitting it into training and validation sets, and converting it to a suitable format for the model.
@@ -26,6 +30,7 @@ Test the model on the data in the test folder.
 Submit the predicted systolic and diastolic blood pressure readings for the test data in the format specified in the sample_submission.csv file provided in the dataset.
 
 #Evaluation Criteria
+
 The model will be evaluated based on the following criteria:
 Correctness of the implementation
 Clarity and readability of the code
@@ -33,4 +38,5 @@ Performance of the model on the test data
 Quality of the predicted blood pressure readings
 
 #Conclusion
+
 This project presents an approach to build a predictive model for a cuff-less blood pressure estimation device using machine learning. By leveraging PPG and ECG data, the model can predict systolic and diastolic blood pressure readings with high accuracy. The model can potentially be used in real-world applications to improve the monitoring and management of blood pressure.
